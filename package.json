@@ -1,0 +1,27 @@
+{
+  "name": "keep-aliver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsley-einstein/keep-aliver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kingsley-einstein/keep-aliver/issues"
+  },
+  "homepage": "https://github.com/kingsley-einstein/keep-aliver#readme",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1"
+  }
+}
