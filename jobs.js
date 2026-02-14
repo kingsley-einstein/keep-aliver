@@ -1,8 +1,8 @@
 const scheduler = require("node-cron");
 const axios = require("axios");
 
-const DESIGN_URL = "https://magnetar-finance-designs.onrender.com";
-const DEX_API = "https://magnetar-dex-service.onrender.com/api";
+const DESIGN_URL = "https://magnetar-finance-designs-production.up.railway.app";
+const DEX_API = "https://dex-server-production.up.railway.app/api";
 
 export function keepAlive() {
   scheduler
