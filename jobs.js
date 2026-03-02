@@ -2,7 +2,7 @@ const scheduler = require("node-cron");
 const axios = require("axios");
 
 const DESIGN_URL = "https://magnetar-finance-designs.onrender.com";
-const DEX_API = "https://magnetar-dex-server.onrender.com";
+const DEX_API = "https://magnetar-dex-server.onrender.com/api";
 
 export function keepAlive() {
   scheduler
